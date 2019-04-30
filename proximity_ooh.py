@@ -92,4 +92,4 @@ def WriteResults(filename, desc, lat, long):
 placesApi = places_init(filename='credentials.yaml')
 
 
-WriteResults(filename='nyc.csv', desc='Location', lat='Latitude', long='Longitude')
+WriteResults(filename='placements.csv', desc='Location', lat='Latitude', long='Longitude')
